@@ -1,0 +1,209 @@
+<html>
+<title>♡Món quà nhỏ</title>
+<head>  
+<style>
+        body {
+            background-image: url("nen.jpg");
+
+            background-size: 100% 100%;
+
+            background-position: center;
+
+            background-repeat: no-repeat;
+
+            background-attachment: fixed;
+
+            min-height: 100vh;
+        }
+tieu-de {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .tieu-de img {
+        width: 40%;
+        max-width: 450px;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    </style>
+</head>
+<body> <h1 class="tieu-de">
+    <img src="tieu de.png" alt="Happy Women Day 20/10">
+</h1>
+<h2> <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet">
+
+<p style="
+    color: #83C98A;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom:20px;
+">
+    Món quà nhỏ ୨୧<sup>♥</sup>୨୧ 
+</p>
+</h2>
+<h3>
+
+<style>
+    .hop-thu {
+        width: 280px;
+        margin: 100px auto;
+        text-align: center;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+    }
+
+    .phong-thu {
+        width: 260px;
+        height: 165px;
+        margin: auto;
+        position: relative;
+        perspective: 800px;
+    }
+
+    /* Thân phong bì */
+    .than-thu {
+        position: absolute;
+        inset: 0;
+        background: #f5a6c2;
+        border-radius: 5px;
+        z-index: 2;
+        clip-path: polygon(0 0, 50% 55%, 100% 0,
+                           100% 100%, 0 100%);
+    }
+
+    /* Tờ giấy bên trong */
+    .giay-thu {
+        position: absolute;
+        width: 220px;
+        height: 135px;
+        left: 20px;
+        top: 15px;
+        box-sizing: border-box;
+        padding: 12px;
+        background: #fffaf0;
+        border-radius: 5px;
+        z-index: 1;
+        overflow: hidden;
+        transition: top 0.8s ease, height 0.8s ease;
+    }
+
+    .giay-thu h2 {
+        color: #e66f9b;
+        font-size: 16px;
+        margin: 4px 0 8px;
+    }
+
+    .giay-thu p {
+        color: #87616f;
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 5px 0;
+    }
+
+    /* Nắp phong bì */
+    .nap-thu {
+        position: absolute;
+        inset: 0;
+        background: #E875A2;
+        clip-path: polygon(0 0, 100% 0, 50% 58%);
+        transform-origin: top center;
+        transition: transform 0.6s ease;
+        z-index: 4;
+    }
+
+    /* Mặt trước phong bì */
+    .mat-truoc {
+        position: absolute;
+        inset: 0;
+        background: #f8b5cd;
+        clip-path: polygon(0 0, 50% 58%, 100% 0,
+                           100% 100%, 0 100%);
+        z-index: 3;
+        pointer-events: none;
+    }
+
+    .tem-tim {
+        position: absolute;
+        z-index: 5;
+        left: 50%;
+        top: 58%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+        transition: opacity 0.3s;
+    }
+
+    /* Khi mở thư */
+    .hop-thu.mo .giay-thu {
+        top: -145px;
+        height: 260px;
+        z-index: 5;
+        overflow: auto;
+    }
+
+    .hop-thu.mo .nap-thu {
+        transform: rotateX(180deg);
+        z-index: 1;
+    }
+
+    .hop-thu.mo .mat-truoc {
+        z-index: 2;
+    }
+
+    .hop-thu.mo .tem-tim {
+        opacity: 0;
+    }
+
+    .goi-y {
+        color: #bd6486;
+        font-size: 14px;
+        margin-top: 22px;
+    }
+.anh-trong-thu {
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 3px solid #f3b0c9;
+    box-shadow: 0 3px 8px #d9578b33;
+}
+</style>
+
+<div class="hop-thu"
+      onclick="this.classList.toggle('mo')">
+
+    <div class="phong-thu">
+
+        <div class="giay-thu">
+            <h2>💌 Gửi Cô Xuyến thân mến</h2>
+            <p>
+                Chúc cô ngày 20/10 thật vui vẻ,
+                luôn xinh tươi, hạnh phúc và
+                nhận được thật nhiều yêu thương! 🌷
+            </p>
+            <p>Chúc mọi điều tốt đẹp đến với cô! 💗</p>
+            <p>Tuyển HSG Vật Lí 🌸</p>
+            <img class="anh-trong-thu"
+                 src="anh.jpg"
+                 alt="Kỷ niệm nhỏ">
+        </div>
+
+        <div class="than-thu"></div>
+        <div class="nap-thu"></div>
+        <div class="mat-truoc"></div>
+        <div class="tem-tim">💗</div>
+
+    </div>
+
+    <p class="goi-y">💌 Bấm vào phong thư để mở!</p>
+</div>
+</h3>
+ </body>
+</html>
